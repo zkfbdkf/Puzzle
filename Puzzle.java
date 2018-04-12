@@ -26,10 +26,6 @@ public class Puzzle {
 		while (true) {
 			Node Present = (Node) Node.poll();
 
-			// print present puzzle
-			// print(Present);
-			//System.out.println();
-
 			// check the answer
 			check = Check(Present);
 
